@@ -13,6 +13,12 @@ interface Project {
 }
 
 const projects: Project[] = [
+    {
+        title: "Spymaster",
+        description: "An online multiplayer alternative to the board game Codenames, Spymaster lets players challenge friends or strangers to guess codenames, just like the original tabletop version, all in your browser.",
+        technologies: ["Convex", "Next.js", "Tailwind CSS", "Clerk", "Vercel"],
+        websiteLink: "https://spymaster.christianfurr.dev"
+      },   
   {
     title: "Qoutebook App",
     description: "An app that allows users to create and share quotes with their friends in real time",
